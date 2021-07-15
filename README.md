@@ -6,5 +6,5 @@ Durante el desarrollo de esta pagina aprendimos los fundamentos Bootstrap. Tales
 
 Puedes revisar el resultado aquí:
 ```bash
-[Vivero D'Oranged](https://andresbarrosodev.github.io/Vivero-DOranged-Bootstrap/)
+https://andresbarrosodev.github.io/Vivero-DOranged-Bootstrap/
 ```
