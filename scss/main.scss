@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.bg-image {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/jardinbonito.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+}
+.bg-gray-trans {
+    background-color: rgba(255, 255, 255, 0.309);
+}
+.logo {
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 2rem;
+    &:link, &:visited{
+        color: orange;
+    }
+    &:hover, &:active{
+        color:white;
+        text-decoration: none;
+    }
+}
+.custom-title {
+    font-size: 20px;
+}
+.custom-buttom-color1 {
+    background-color: orange;
+    border-color: orangered;
+    color: white;
+    &:hover, &:active{
+        background-color: orangered;
+        color: white;
+    }
+}
+.custom-buttom-color2 {
+    border-color: orange;
+    color: orange;
+    &:hover, &:active{
+        background-color: orange;
+        border-color: orangered;
+        color: white;
+    }
+}
+.custom-formulary-button {
+    border-radius: 0%;
+    font-size: 16px;
+    background-color: orange;
+    border-color: orangered;
+    color: white;
+    &:visited, &:link{
+        background-color: orange;
+        border-color: orangered; 
+    }
+    &:hover, &:active, &:focus{
+        background-color: orangered;
+        border-color: orange;
+        color: white;
+    }
+}
+.custom-p {
+    font-size: 10px;
+}
+.nav-border {
+    border-bottom: 2px solid white;
+}
+.navbar-light .navbar-nav .nav-link {
+    &:link, &:visited {
+        color: white;
+        font-weight: bold;
+    }
+    &:hover, &:active {
+        color: orange;
+    }
+}
+.bg-black {
+    background-color: black;
+}
+.navbar-light .navbar-brand {
+    color: #ffffff;
+}
+.text-indent{
+    text-indent: 30px;
+}
+.img-size{
+    width: 100%;
+}
+.navbar-light .navbar-toggler {
+    border-color: orangered;
+    background-color: orange;
+}
